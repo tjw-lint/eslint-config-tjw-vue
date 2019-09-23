@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-tjw-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "The Jared Wilcurt's Vue.js Linting rules",
+  "author": "The Jared Wilcurt",
+  "keywords": [
+    "tjw",
+    "vue",
+    "eslint",
+    "lint"
+  ],
+  "scripts": {
+    "postinstall": "node yorkie-was-a-mistake.js"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "rimraf": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjw-lint/eslint-config-tjw-vue.git"
+  },
+  "homepage": "https://github.com/tjw-lint/eslint-config-tjw-vue#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjw-lint/eslint-config-tjw-vue/issues"
+  }
+}
