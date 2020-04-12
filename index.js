@@ -36,8 +36,13 @@ module.exports = {
           // 'v-text', 'v-html'
           'CONTENT',
 
-          // 'v-model', 'v-bind', ':property="foo"'
+          // 'v-model', 'v-bind'
+          'TWO_WAY_BINDING',
+          // legacy name for TWO_WAY_BINDING
           'BINDING',
+
+          // 'v-custom-directive'
+          'OTHER_DIRECTIVES',
 
           // 'is'
           'DEFINITION',
@@ -45,13 +50,13 @@ module.exports = {
           // 'id'
           'GLOBAL',
 
-          // 'customProp="foo"', 'class', 'type', 'value' etc
+          // 'customProp="foo"', 'class', 'type', ':prop="foo"'
           'OTHER_ATTR',
 
           // '@click="functionCall"', 'v-on="event"'
           'EVENTS',
 
-          // 'slot', 'key', 'ref'
+          // 'slot', 'key', 'ref', 'v-slot'
           'UNIQUE'
         ]
       }
@@ -99,10 +104,12 @@ module.exports = {
         }
       }
     ],
+    'vue/multiline-html-element-content-newline': 'off',
     'vue/name-property-casing': [
       'error',
       'PascalCase'
     ],
+    'vue/no-v-html': 'off',
     'vue/order-in-components': [
       'error',
       {
@@ -141,6 +148,7 @@ module.exports = {
         ]
       }
     ],
+    'vue/singleline-html-element-content-newline': 'off',
     'vue/prop-name-casing': [
       'error',
       'camelCase'
