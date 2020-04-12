@@ -14,8 +14,8 @@
     "postinstall": "node yorkie-was-a-mistake.js"
   },
   "dependencies": {
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "rimraf": "^3.0.0"
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "rimraf": "^3.0.2"
   },
   "repository": {
     "type": "git",
