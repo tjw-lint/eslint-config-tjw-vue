@@ -23,6 +23,7 @@ module.exports = {
     'vue/attributes-order': [
       'error',
       {
+        'alphabetical': false,
         'order': [
           // 'v-for item in items'
           'LIST_RENDERING',
