@@ -14,3 +14,10 @@ The Jared Wilcurt's Vue.js ESLint rules
       ]
     };
     ```
+
+* * *
+
+**See also:**
+
+* [eslint-config-tjw-base](https://github.com/tjw-lint/eslint-config-tjw-base)
+* [eslint-config-tjw-jest](https://github.com/tjw-lint/eslint-config-tjw-jest)
