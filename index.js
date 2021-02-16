@@ -139,6 +139,7 @@ module.exports = {
             'props',
             'propsData'
           ],
+          'validations',
           'data',
           'methods',
           'computed',
