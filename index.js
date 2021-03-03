@@ -40,7 +40,7 @@ module.exports = {
           // 'v-model', 'v-bind'
           'TWO_WAY_BINDING',
           // legacy name for TWO_WAY_BINDING
-          'BINDING',
+          // 'BINDING',
 
           // 'v-custom-directive'
           'OTHER_DIRECTIVES',
