@@ -21,3 +21,5 @@ The Jared Wilcurt's Vue.js ESLint rules
 
 * [eslint-config-tjw-base](https://github.com/tjw-lint/eslint-config-tjw-base)
 * [eslint-config-tjw-jest](https://github.com/tjw-lint/eslint-config-tjw-jest)
+* [eslint-config-tjw-jsdoc](https://github.com/tjw-lint/eslint-config-tjw-jsdoc)
+* [eslint-config-tjw-vue](https://github.com/tjw-lint/eslint-config-tjw-vue)
