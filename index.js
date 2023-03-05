@@ -62,6 +62,10 @@ module.exports = {
         ]
       }
     ],
+    'vue/component-definition-name-casing': [
+      'error',
+      'PascalCase'
+    ],
     'vue/html-closing-bracket-newline': [
       'error',
       {
@@ -107,10 +111,6 @@ module.exports = {
       }
     ],
     'vue/multiline-html-element-content-newline': 'off',
-    'vue/name-property-casing': [
-      'error',
-      'PascalCase'
-    ],
     'vue/no-v-html': 'off',
     'vue/order-in-components': [
       'error',
