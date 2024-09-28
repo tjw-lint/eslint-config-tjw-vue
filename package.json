@@ -2,7 +2,12 @@
   "name": "eslint-config-tjw-vue",
   "version": "4.0.0",
   "main": "index.js",
-  "description": "The Jared Wilcurt's Vue.js Linting rules",
+  "type": "module",
+  "description": "The Jared Wilcurt's Premium Vue.js Linting rules",
+  "peerDependencies": {
+    "eslint-plugin-vue": ">=9",
+    "eslint": ">=9"
+  },
   "author": "The Jared Wilcurt",
   "keywords": [
     "tjw",
