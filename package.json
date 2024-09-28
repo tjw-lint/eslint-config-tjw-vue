@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tjw-vue",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "index.js",
   "description": "The Jared Wilcurt's Vue.js Linting rules",
   "author": "The Jared Wilcurt",

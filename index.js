@@ -1,21 +1,5 @@
-// Vue Linter Options
-module.exports = {
-  'parserOptions': {
-    'parser': 'babel-eslint',
-    'ecmaVersion': 8,
-    'sourceType': 'module'
-  },
-  'env': {
-    'browser': true,
-    'node': true
-  },
-  'plugins': [
-    'vue'
-  ],
-  'extends': [
-    'plugin:vue/recommended'
-  ],
-  'rules': {
+export default {
+  rules: {
     'vue/attribute-hyphenation': [
       'error',
       'never'

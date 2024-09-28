@@ -5,14 +5,31 @@ The Jared Wilcurt's Vue.js ESLint rules
 
 ## Using this
 
-1. `npm install --save-dev eslint-config-tjw-vue`
-1. In your `.eslitrc.js` add `tjw-vue` to your `extends` like so:
+This assumes you have ESLint already set up, if not, refer to [this guide](eslint-config-tjw-base).
+
+1. `npm install --save-dev eslint@9 eslint-plugin-vue eslint-config-tjw-vue`
+1. In your `eslint.config.js`:
     ```js
-    module.exports = {
-      'extends': [
-        'tjw-vue'
-      ]
-    };
+    import tjwVue from 'eslint-config-tjw-vue';
+    import pluginVue from 'eslint-plugin-vue';
+
+    const vue2Recommended = pluginVue.configs['flat/vue2-recommended'];
+    const vue3Recommended = pluginVue.configs['flat/recommended'];
+
+    export default [
+      // Generic rulesets first, such as:
+
+      // js.configs.recommended,
+      // tjwBase,
+
+      // Then pick either Vue 2 or Vue 3 from above and spread it
+      ...vue3Recommended,
+      tjwVue,
+
+      // Then project specific settings
+      {
+      }
+    ]
     ```
 
 
