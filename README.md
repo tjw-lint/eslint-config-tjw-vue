@@ -29,7 +29,7 @@ This assumes you have ESLint already set up, if not, refer to [this guide](https
       // Then project specific settings
       {
       }
-    ]
+    ];
     ```
 
 
