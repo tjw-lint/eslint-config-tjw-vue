@@ -18,5 +18,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tjw-lint/eslint-config-tjw-vue/issues"
+  },
+  "volta": {
+    "node": "22.9.0"
   }
 }
