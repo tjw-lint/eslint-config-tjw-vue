@@ -3,7 +3,6 @@
   "version": "4.0.0",
   "type": "module",
   "main": "index.js",
-  "type": "module",
   "description": "The Jared Wilcurt's Premium Vue.js Linting rules",
   "peerDependencies": {
     "eslint-plugin-vue": ">=9",
