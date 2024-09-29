@@ -1,21 +1,5 @@
-// Vue Linter Options
-module.exports = {
-  'parserOptions': {
-    'parser': 'babel-eslint',
-    'ecmaVersion': 8,
-    'sourceType': 'module'
-  },
-  'env': {
-    'browser': true,
-    'node': true
-  },
-  'plugins': [
-    'vue'
-  ],
-  'extends': [
-    'plugin:vue/recommended'
-  ],
-  'rules': {
+export default {
+  rules: {
     'vue/attribute-hyphenation': [
       'error',
       'never'
@@ -23,8 +7,8 @@ module.exports = {
     'vue/attributes-order': [
       'error',
       {
-        'alphabetical': false,
-        'order': [
+        alphabetical: false,
+        order: [
           // 'v-for item in items'
           'LIST_RENDERING',
 
@@ -69,44 +53,44 @@ module.exports = {
     'vue/html-closing-bracket-newline': [
       'error',
       {
-        'singleline': 'never',
-        'multiline': 'always'
+        singleline: 'never',
+        multiline: 'always'
       }
     ],
     'vue/html-closing-bracket-spacing': [
       'error',
       {
-        'startTag': 'never',
-        'endTag': 'never',
-        'selfClosingTag': 'always'
+        startTag: 'never',
+        endTag: 'never',
+        selfClosingTag: 'always'
       }
     ],
     'vue/html-indent': [
       'error',
       2,
       {
-        'attribute': 1,
-        'closeBracket': 0
+        attribute: 1,
+        closeBracket: 0
       }
     ],
     'vue/html-self-closing': [
       'error',
       {
-        'html': {
-          'void': 'always',
-          'normal': 'never',
-          'component': 'always'
+        html: {
+          void: 'always',
+          normal: 'never',
+          component: 'always'
         }
       }
     ],
     'vue/max-attributes-per-line': [
       'error',
       {
-        'singleline': {
-          'max': 3
+        singleline: {
+          max: 3
         },
-        'multiline': {
-          'max': 1
+        multiline: {
+          max: 1
         }
       }
     ],
@@ -115,7 +99,7 @@ module.exports = {
     'vue/order-in-components': [
       'error',
       {
-        'order': [
+        order: [
           'el',
           'name',
           [

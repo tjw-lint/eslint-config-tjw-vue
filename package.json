@@ -1,8 +1,13 @@
 {
   "name": "eslint-config-tjw-vue",
-  "version": "3.0.0",
+  "version": "4.0.0",
+  "type": "module",
   "main": "index.js",
-  "description": "The Jared Wilcurt's Vue.js Linting rules",
+  "description": "The Jared Wilcurt's Premium Vue.js Linting rules",
+  "peerDependencies": {
+    "eslint-plugin-vue": ">=9",
+    "eslint": ">=9"
+  },
   "author": "The Jared Wilcurt",
   "keywords": [
     "tjw",
@@ -18,5 +23,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tjw-lint/eslint-config-tjw-vue/issues"
+  },
+  "volta": {
+    "node": "22.9.0"
   }
 }
