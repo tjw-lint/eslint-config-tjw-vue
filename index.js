@@ -1,9 +1,11 @@
 export default {
   rules: {
+    // myProp="prop" data-id="prop" aria-role="button" slot-scope="prop" but not my-prop="prop"
     'vue/attribute-hyphenation': [
       'error',
       'never'
     ],
+    // Enforces consistent order of attribute groups
     'vue/attributes-order': [
       'error',
       {
@@ -46,6 +48,7 @@ export default {
         ]
       }
     ],
+    // name: 'MyComponent', not name: 'my-component' or name: 'myComponent'
     'vue/component-definition-name-casing': [
       'error',
       'PascalCase'
@@ -95,7 +98,9 @@ export default {
       }
     ],
     'vue/multiline-html-element-content-newline': 'off',
+    // Allows usage of v-html without warnings
     'vue/no-v-html': 'off',
+    // Enforces a consistent order of sections in Options API and Composition API (no effect on <script setup>)
     'vue/order-in-components': [
       'error',
       {
@@ -136,6 +141,7 @@ export default {
       }
     ],
     'vue/singleline-html-element-content-newline': 'off',
+    // showModal="showModal" not ShowModal="showModal" or show-modal="showModal"
     'vue/prop-name-casing': [
       'error',
       'camelCase'
