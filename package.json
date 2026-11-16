@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-tjw-vue",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "type": "module",
   "main": "index.js",
   "description": "The Jared Wilcurt's Premium Vue.js Linting rules",
-  "peerDependencies": {
-    "eslint-plugin-vue": ">=9",
-    "eslint": ">=9"
+  "scripts": {
+    "proto": "proto pin node latest --resolve --tool-native && proto pin npm latest --resolve --tool-native"
   },
   "author": "The Jared Wilcurt",
   "keywords": [
@@ -27,11 +26,11 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "26.7.0"
+      "version": "26.13.1"
     },
     "packageManager": {
       "name": "npm",
-      "version": "12.0.2"
+      "version": "12.2.2"
     }
   }
 }

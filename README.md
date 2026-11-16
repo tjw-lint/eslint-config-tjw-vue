@@ -8,6 +8,9 @@ The Jared Wilcurt's Premium Vue.js ESLint rules
 This assumes you have ESLint 9+ already set up, if not, refer to [this guide](https://github.com/tjw-lint/eslint-config-tjw-base).
 
 1. `npm install --save-dev eslint-plugin-vue eslint-config-tjw-vue`
+   * **Requires:**
+      * `eslint` >=9.0.0
+      * `eslint-plugin-vue` >=9.0.0
 1. In your `eslint.config.js`:
     ```js
     import tjwVue from 'eslint-config-tjw-vue';
